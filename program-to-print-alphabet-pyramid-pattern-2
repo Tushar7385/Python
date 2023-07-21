@@ -1,0 +1,10 @@
+x = 4
+for i in range(x):
+    print(chr(65 + i) + ' ' + (chr(65 + i) + ' ') * i)
+'''
+desired output-
+A
+B B
+C C C
+D D D D
+'''
