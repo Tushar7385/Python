@@ -1,0 +1,6 @@
+my_id=input("input  roll no.")
+my_id2=input("input name")
+print('My name is',my_id2,’and roll no is ',my_id)
+print('My name is{my_id2} and roll no is {my_id}')
+print('My name is {0} and roll no is {1)'format(my_id2,my_id))
+print('My name is %s and roll no is %s'%(my_id2,my_id))
